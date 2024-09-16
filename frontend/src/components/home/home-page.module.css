@@ -1,0 +1,36 @@
+/* HomePage.css */
+
+.homepage-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full viewport height */
+    background-color: #d3d3d3; /* Grey background */
+    padding: 20px; /* Padding to prevent overflow */
+    box-sizing: border-box;
+  }
+  
+  .homepage-title {
+    color: #007bff; /* Blue text color */
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Text shadow for depth */
+  }
+  
+  .homepage-button {
+    text-decoration: none; /* Remove underline for button style */
+    color: #fff; /* Text color is white */
+    background-color: #007bff; /* Button color (blue) */
+    padding: 10px 30px;
+    font-weight: bold;
+    border-radius: 30px; /* Fully rounded button */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Button shadow */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+  }
+  
+  .homepage-button:hover {
+    background-color: #0056b3; /* Change button color on hover */
+  }
+  

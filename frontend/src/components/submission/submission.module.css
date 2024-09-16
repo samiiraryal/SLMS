@@ -1,0 +1,122 @@
+/* Global Styles */
+/* body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #c8c9ca;
+} */
+
+/* Container Styles */
+.submissionContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Header Styles */
+.submissionHeader {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #007cf8;
+}
+
+/* List Styles */
+.submissionList {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+  max-width: 800px;
+}
+
+/* Item Styles */
+.submissionItem {
+  background-color: #ffffff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.submissionItem:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+/* Form Group Styles */
+.formGroup {
+  margin-bottom: 20px;
+}
+
+/* Label Styles */
+.submissionLabel {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #34495e;
+}
+
+/* Input Styles */
+.submissionInput {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccd1d9;
+  border-radius: 6px;
+  font-size: 15px;
+  margin-bottom: 10px;
+  transition: border-color 0.3s ease;
+}
+
+.submissionInput:focus {
+  border-color: #3498db;
+  outline: none;
+}
+
+/* Textarea Styles */
+.submissionTextarea {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccd1d9;
+  border-radius: 6px;
+  font-size: 15px;
+  resize: vertical;
+  transition: border-color 0.3s ease;
+}
+
+.submissionTextarea:focus {
+  border-color: #3498db;
+  outline: none;
+}
+
+/* Radio Button Styles */
+.submissionRadioGroup {
+  display: flex;
+  gap: 20px;
+}
+
+.submissionRadioLabel {
+  font-size: 15px;
+  color: #34495e;
+  display: flex;
+  align-items: center;
+}
+
+.submissionRadioInput {
+  margin-right: 8px;
+}
+
+/* Feedback Styles */
+.feedback {
+  font-size: 14px;
+  color: #7f8c8d;
+}
+.headingContainer {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  width: 100%;
+}

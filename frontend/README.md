@@ -1,0 +1,1 @@
+Write how to start the frontend project!

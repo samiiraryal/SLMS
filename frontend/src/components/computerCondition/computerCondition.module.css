@@ -1,0 +1,33 @@
+.computerCondition {
+    text-align: center;
+  }
+  
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .computer {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #000;
+    cursor: pointer;
+  }
+  
+  .needsMaintenance {
+    background-color: red;
+    color: white;
+  }
+  
+  .computerDetails {
+    margin-top: 20px;
+    text-align: left;
+    display: inline-block;
+  }
+  

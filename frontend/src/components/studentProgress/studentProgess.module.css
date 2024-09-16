@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background: #e9ecef;
+  color: #333;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: left;
+  min-height: 100vh;
+  background: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px 50px;
+  border-radius: 10px;
+}
+
+h1 {
+  color: #007bff;
+  margin-bottom: 30px;
+  font-size: 2em;
+  text-decoration: underline #007bff;
+}
+
+.controls {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.controls button {
+  padding: 20px 50px;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  background: #007bff;
+  color: rgb(7, 7, 7);
+  cursor: pointer;
+}
+
+.controls button:hover {
+  background: #0056b3;
+  transform: scale(1.05);
+}
+
+.studentList {
+  list-style: none; /*This ensures no bullet points */
+  width: 100%;
+  max-width: 600px;
+  max-height: 400px;
+  overflow: auto;
+  margin-bottom: 30px;
+}
+
+.studentItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #d2cece;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.studentItem:hover {
+  background: #7e7d7d;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.studentItem span {
+  margin-right: 20px;
+  flex: 1;
+}
+
+.studentItem span:last-child {
+  text-align: right;
+  margin-right: 0;
+}
+
+.studentItem span:first-child {
+  text-align: left;
+  margin-left: 0;
+}
+
+.saveButton {
+  padding: 15px 30px;
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+  background: #007bff;
+  color: #09090a;
+  cursor: pointer;
+}
+
+.saveButton:hover {
+  background: #0056b3;
+  transform: scale(1.05);
+}
+.headingContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  margin-bottom: 20px;
+font-size: 25px;
+}
